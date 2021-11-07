@@ -70,7 +70,7 @@ header nav ul {
     list-style: none;
 }
 
-header nav ul li a {
+header nav ul li {
     padding: 18px;
     font-size: 19px;
     color: var(--accent);
@@ -78,11 +78,18 @@ header nav ul li a {
     text-decoration: none;
 }
 
-header nav ul li a:hover {
+header nav ul li:hover {
     font-size: 19px;
     color: var(--secondary);
     font-weight: 700;
-    text-decoration: underline;
+    text-decoration: none;
+}
+
+.active-nav {
+    border-bottom: solid 4px;
+    border-radius: 6px;
+    border-color: var(--base-color);
+    padding-bottom: 8px;
 }
 /* END HEADER NAV STYLES */
 
@@ -280,18 +287,6 @@ address a:hover {
 }
 /* END CONTACT/FOOTER SECTION STYLES */
 
-
-/* BEGIN TABLET/LAPTOP MEDIA QUERY SYLES, WIDENS CONTENT TO BE READABLE */
-/* @media screen and (max-width: 980px) {
-    .container {
-        width: 95%
-   } 
-
-    .content-block {
-        margin: 25px;
-    }
-} */
-/* END TABLET/LAPTOP MEDIA QUERY SYLES */
 
 /* BEGIN PHONE/SMALL TABLET MEDIA QUERY STYLES, MOVES TO COLUMN FORMAT */
 @media screen and (max-width: 768px) {
