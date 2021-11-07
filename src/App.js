@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Nav from "./components/Nav";
+import About from "./components/About";
 
 function App() {
   const [pages] = useState([
@@ -19,7 +20,9 @@ function App() {
         setCurrentPage={setCurrentPage}
       ></Nav>
       <main>
-
+        <div className="container">
+          <About />
+        </div>
       </main>
     </div>
   );
