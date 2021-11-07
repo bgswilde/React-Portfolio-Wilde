@@ -9,7 +9,7 @@ function Nav(props) {
     } = props;
 
     useEffect(() => {
-        document.title = currentPage.title
+        document.title = `Brian Wilde - ${currentPage.title}`
     }, [currentPage]);
 
     return(
