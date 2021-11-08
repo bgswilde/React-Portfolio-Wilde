@@ -21,7 +21,7 @@ function App() {
       ></Nav>
       <main>
         <div className="container">
-          <About />
+          {currentPage.title === 'about' && <About />}
         </div>
       </main>
     </div>
