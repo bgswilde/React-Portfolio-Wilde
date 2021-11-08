@@ -1,4 +1,5 @@
 import React from "react";
+import { removeQuotes } from "../../utils/helpers";
 
 function ProjectCard(props) {
     const {
@@ -24,9 +25,9 @@ function ProjectCard(props) {
                 <div className='col-md-6 col-lg-7'>
                     <div className='card-body'>
                         <h4 className='card-title'>{`${name}`}</h4>
-                        <p className='card-text'>A thought-provoking choice app, displaying THIS or THAT questions for a user to choose from and discuss amongst their friends or debate internally. Built with a team, on which I had the role of concept, design, api routes, and javascript functionality for UX.</p>
+                        <p className='card-text'>{`${description}`}</p>
                         <h5 className='card-title'>Technologies Used:</h5>
-                        <h1 className='fs-1'><i className='devicon-html5-plain'></i> <i className='devicon-css3-plain'></i> <i className='devicon-bootstrap-plain'></i> <i className='devicon-javascript-plain'></i> <i className='devicon-nodejs-plain'></i> <i className='devicon-express-original-wordmark'></i> <i className='devicon-mysql-plain-wordmark'></i> <i className='devicon-sequelize-plain-wordmark'></i> <i className='devicon-handlebars-plain'></i></h1>
+                        <h1 className='fs-1' dangerouslySetInnerHTML={{ __html: skills }}></h1>
                     </div>
                 </div>
             </div>
