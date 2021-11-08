@@ -31,7 +31,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div className="row px-4">
+                <div className="row px-4 pt-1">
                     <div className="col">
                         <h5 className="card-title">Technology Skillset:</h5>
                         <h1 className="fs-1">

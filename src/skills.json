@@ -1,58 +1,58 @@
 [
     {
         "name": "HTML",
-        "icon": "<i className='devicon-html5-plain'></i>"
+        "icon": "<i class='devicon-html5-plain'></i>"
     },
     {
         "name": "CSS",
-        "icon": "<i className='devicon-css3-plain'></i>"
+        "icon": "<i class='devicon-css3-plain'></i>"
     },
     {
         "name": "Bootstrap",
-        "icon": "<i className='devicon-bootstrap-plain'></i>"
+        "icon": "<i class='devicon-bootstrap-plain'></i>"
     },
     {
         "name": "JavaScript",
-        "icon": "<i className='devicon-javascript-plain'></i>"
+        "icon": "<i class='devicon-javascript-plain'></i>"
     },
     {
         "name": "React",
-        "icon": "<i className='devicon-react-original'></i>"
+        "icon": "<i class='devicon-react-original'></i>"
     },
     {
         "name": "Node.js",
-        "icon": "<i className='devicon-nodejs-plain'></i>"
+        "icon": "<i class='devicon-nodejs-plain'></i>"
     },
     {
         "name": "Express.js",
-        "icon": "<i className='devicon-express-original-wordmark'></i>"
+        "icon": "<i class='devicon-express-original-wordmark'></i>"
     },
     {
         "name": "mySQL",
-        "icon": "<i className='devicon-mysql-plain-wordmark'></i>"
+        "icon": "<i class='devicon-mysql-plain-wordmark'></i>"
     },
     {
         "name": "Sequelize",
-        "icon": "<i className='devicon-sequelize-plain-wordmark'></i>"
+        "icon": "<i class='devicon-sequelize-plain-wordmark'></i>"
     },
     {
         "name": "MongoDB",
-        "icon": "<i className='devicon-mongodb-plain'></i>"
+        "icon": "<i class='devicon-mongodb-plain'></i>"
     },
     {
         "name": "GraphQL",
-        "icon": "<i className='devicon-graphql-plain'></i>"
+        "icon": "<i class='devicon-graphql-plain'></i>"
     },
     {
         "name": "GitHub",
-        "icon": "<i className='devicon-github-original'></i>"
+        "icon": "<i class='devicon-github-original'></i>"
     },
     {
         "name": "Wordpress",
-        "icon": "<i className='devicon-wordpress-plain'></i>"
+        "icon": "<i class='devicon-wordpress-plain'></i>"
     },
     {
         "name": "Photoshop",
-        "icon": "<i className='devicon-photoshop-plain'></i>"
+        "icon": "<i class='devicon-photoshop-plain'></i>"
     }
 ]

@@ -3,6 +3,7 @@ import Nav from "./components/Nav";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
+import Resume from "./components/Resume";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <div className="container">
             {currentPage.title === 'about' && <About />}
             {currentPage.title === 'portfolio' && <Portfolio />}
+            {currentPage.title === 'resume' && <Resume />}
           </div>
         </main>
         <Footer />

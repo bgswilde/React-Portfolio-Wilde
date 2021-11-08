@@ -1,5 +1,4 @@
 import React from "react";
-import { removeQuotes } from "../../utils/helpers";
 
 function ProjectCard(props) {
     const {
