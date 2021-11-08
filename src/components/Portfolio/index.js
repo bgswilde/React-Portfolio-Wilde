@@ -8,7 +8,7 @@ function Portfolio() {
         <section id='work' className='content-block'>
             <div className='row'>
                 <div className='col'>
-                    <h2 className='text-center'>My Work</h2>
+                    <h2 className='text-center'>My Portfolio</h2>
                 </div>
             </div>
             {projects.map((project) => (
