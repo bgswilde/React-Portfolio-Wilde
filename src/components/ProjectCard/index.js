@@ -1,12 +1,19 @@
 import React from "react";
 
 function ProjectCard(props) {
-    const {name} = props;
+    const {
+        name,
+        image,
+        description,
+        skills,
+        deployed,
+        github
+    } = props;
     return (
         <div className='card my-3'> 
             <div className='row'>
                 <div className='col-md-6 col-lg-5 p-4'>
-                    <img src='./assets/images/this-that-new.png' className='img-fluid rounded' alt='...'/>
+                    <img src={`./assets/images/${image}`} className='img-fluid rounded' alt='...'/>
                     <div className='d-flex justify-content-center'>
                         <a href='https://github.com/bgswilde/thisthat' target='_blank' className='btn btn-primary card-btn my-3'> <i className='devicon-github-original'></i> Check it out on GitHub</a>
                     </div>
