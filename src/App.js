@@ -4,6 +4,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
             {currentPage.title === 'about' && <About />}
             {currentPage.title === 'portfolio' && <Portfolio />}
             {currentPage.title === 'resume' && <Resume />}
+            {currentPage.title === 'contact' && <Contact />}
           </div>
         </main>
         <Footer />

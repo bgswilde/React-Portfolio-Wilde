@@ -272,6 +272,23 @@ header nav ul li:hover {
     color: var(--secondary);
 }
 
+.contact-field {
+    border-color: var(--secondary);
+}
+
+.contact-btn {
+    background-color: var(--accent2);
+    border-color: var(--accent);
+    color: white;
+}
+
+.contact-btn:hover {
+    background-color: var(--secondary);
+    color: white;
+}
+
+
+
 /* BEGIN CONTACT/FOOTER SECTION STYLES */
 
 .footer {
