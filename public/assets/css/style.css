@@ -9,7 +9,7 @@
     --primary: #2b2b2b;
     --secondary: #ff5a00;
     --accent: #036b7b;
-
+    --accent2: rgba(0, 87, 72, 0.8);
 }
 
 body {
@@ -226,22 +226,6 @@ header nav ul li:hover {
     border-color: rgba(0, 87, 72, 0.8);
 }
 
-.page1 {
-    background-image: url(./images/BucketTraveler.png);
-}
-
-.page2 {
-    background-image: url(./images/techblog.png);
-}
-
-.page3 {
-    background-image: url(./images/team.png);
-}
-
-.page4 {
-    background-image: url(./images/ccc.png);
-}
-
 .card:hover {
     background-color: rgba(0, 87, 72, 0.8);
     color: white;
@@ -260,6 +244,30 @@ header nav ul li:hover {
 /* END WORK SECTION STYLES */
 
 /* BEGIN CONTACT/FOOTER SECTION STYLES */
+
+.footer {
+    background-color: var(--accent2);
+    height: 80px;
+    padding-top: 15px;
+}
+
+.footer p {
+    color: white;
+    font-size: small;
+    margin-bottom: 0;
+}
+
+.footer li {
+    display: inline;
+    list-style-type: none;
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.footer a {
+    color: white;
+}
+
 .contact-links {
     display: flex;
     width: 80%;
@@ -267,24 +275,6 @@ header nav ul li:hover {
     align-self: center;
 }
 
-address {
-    font-style: normal;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-address a {
-    font-size: 19px;
-    font-weight: 700;
-    color: var(--secondary);
-    margin: 5px;
-    text-decoration: none;
-}
-
-address a:hover {
-    color: var(--primary);
-    text-decoration: underline;
-}
 /* END CONTACT/FOOTER SECTION STYLES */
 
 
