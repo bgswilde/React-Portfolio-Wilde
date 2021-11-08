@@ -12,9 +12,14 @@
     --accent2: rgba(0, 87, 72, 0.8);
 }
 
+
 body {
     font-family: 'Raleway', sans-serif;
     color: var(--primary);
+}
+
+.main {
+    min-height: 100vh;
 }
 
 .background {
@@ -249,6 +254,8 @@ header nav ul li:hover {
     background-color: var(--accent2);
     height: 80px;
     padding-top: 15px;
+    position: sticky;
+    top: 100%;
 }
 
 .footer p {
