@@ -33,8 +33,8 @@ For best use, simply go to the deployed link and view the portfolio!
 
 ### Deployed link and Screenshots
 (https://bgswilde.github.io/React-Portfolio-Wilde/)
-![screenshot 1](./public/images/portfolio.png)
-![screenshot 2](./public/images/portfolio2.png)
+![screenshot 1](./public/assets/images/portfolio.png)
+![screenshot 2](./public/assets/images/portfolio2.png)
 
 ## Credits
 The user guidelines and learning concepts for this project were given by Trilogy Education as a part of the University of Kansas Full Stack Web Developer Bootcamp. © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Validation helpers and starter code for conditionally validating form fields provided by Triology Edication. Remaining code original to Brian Wilde.
