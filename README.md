@@ -22,7 +22,7 @@ This application was created to highlight my development skills while in the pur
 ## Installation
 This application is not meant to be installed, but rather meant to display my portfolio. If you would like to download and install this repo for adaptation, use this step:
 
-Use the command 'git clone' in your command line with the link of this repo while navigated to your desired directory to copy this repo to your machine, run 'npm install' or 'npm i' in your command line in the root folder of this application to install dependencies. Use the command 'npm start' to use the dev React environment. To create your own react app from start using npx, use "npx create-react-app" in your command line. You can also check out [React's documentation here](https://reactjs.org/docs/create-a-new-react-app.html) for more on creating a react app.
+Use the command 'git clone' in your command line with the link of this repo while navigated to your desired directory to copy this repo to your machine, run 'npm install' or 'npm i' in your command line in the root folder of this application to install dependencies. Use the command 'npm start' to use the dev React environment. For production deployment, use 'npm run build'. To create your own react app from start using npx, use "npx create-react-app" in your command line. You can also check out [React's documentation here](https://reactjs.org/docs/create-a-new-react-app.html) for more on creating a react app.
 
 ## Usage
 For best use, simply go to the deployed link and view the portfolio!

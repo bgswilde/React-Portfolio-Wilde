@@ -19,19 +19,21 @@ function App() {
 
   return (
       <div className="app">
-        <Nav 
-          pages={pages}
-          currentPage={currentPage}
-          setCurrentPage={setCurrentPage}
-        ></Nav>
-        <main>
-          <div className="container">
-            {currentPage.title === 'about' && <About />}
-            {currentPage.title === 'portfolio' && <Portfolio />}
-            {currentPage.title === 'resume' && <Resume />}
-            {currentPage.title === 'contact' && <Contact />}
-          </div>
-        </main>
+        <div className="content-wrap">
+          <Nav 
+            pages={pages}
+            currentPage={currentPage}
+            setCurrentPage={setCurrentPage}
+          ></Nav>
+          <main>
+            <div className="container">
+              {currentPage.title === 'about' && <About />}
+              {currentPage.title === 'portfolio' && <Portfolio />}
+              {currentPage.title === 'resume' && <Resume />}
+              {currentPage.title === 'contact' && <Contact />}
+            </div>
+          </main>
+        </div>
         <Footer />
       </div>
   );

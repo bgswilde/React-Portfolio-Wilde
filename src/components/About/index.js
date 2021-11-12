@@ -3,6 +3,11 @@ import React from "react";
 function About() {
     return (
         <article id="about-me" className="content-block">
+            <div className='row'>
+                <div className='col'>
+                    <h2 className='text-center'>About Me</h2>
+                </div>
+            </div>
             <div className="card"> 
                 <div className="row">
                     <div className="col-md-4">
@@ -10,7 +15,7 @@ function About() {
                     </div>
                     <div className="col-md-8">
                         <div className="card-body">
-                            <h5 className="card-title">About Me</h5>
+                            {<h5 className="card-title"><em>Adding Value to Others</em></h5>}
                             <p className="card-text">I'm a People-Focused Full Stack Developer with a background in church 
                                 ministry leadership and strategic/creative media development and a passion for technology. 
                                 I'm a self-starter and learner, as demonstrated by developing skills and knowledge outside 
@@ -24,8 +29,9 @@ function About() {
                                 leadership, strategic thinking, problem solving, adaptability and empathy, combined with 
                                 growing skills in JavaScript, HTML/CSS, React, node.js and Backend databases among other 
                                 technology, puts me in a unique position to add value to others through a career in tech. 
+                                <br />
                                 <br /> 
-                                <em>I am also fond of any good taco, Sporting Kansas City soccer, lighter roast black coffee, 
+                                <em>I am also fond of a good taco, Sporting Kansas City soccer, lighter roast black coffee, 
                                     podcasts and video games.</em>
                             </p>
                         </div>
